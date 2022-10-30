@@ -69,51 +69,56 @@
     font-size: 18px;
     line-height: 25px;
   }
+
+    /* Resized the header picture of the wooden wall */
 .subhead img {
     width: 200px;
     height: 300px;
 }
+
+  /* Set display type to flex to make the content appear side by side with a border in between */
 
 .aboutme {
     display: flex;
     
 }
 
+  /* Added border and padding to About Me */
+
 .aboutme h3 {
     border-right: solid 5px black;
     padding-right: 15px;
 }
+  /* Added some margin to text in this section */
+
 .aboutme p {
-    display: flex;
-    flex: 1 1 auto;
     margin-left: 15px;
-    position: relative;
 }
+  /* Put work inline so the image would show below the Work heading. */
 
 #work {
     display: inline;
 }
+/* Resized image of example work */
 
 #work img {
     width: 50%;
     height: 20%;
 }
+  /* add border and padding to Work */
 
 #work h3 {
     border-right: solid 5px black;
     padding-right: 15px;
 }
-#work p {
-    display: flex;
-    flex: 1 1 auto;
-    margin-left: 15px;
-    position: relative;
-}
+
+  /* Added border and padding to Contact info */
 
 #contact h3 {
     border-right: solid 5px black;
     padding-right: 15px;
 }
+  /* Added display flex to contact info to make them line up */
 
 #contact {
     display: flex;
