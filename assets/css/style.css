@@ -94,17 +94,18 @@
 .aboutme p {
     margin-left: 15px;
 }
-  /* Put work inline so the image would show below the Work heading. */
 
+.aboutme img {
+  width: 20%;
+  height: 10%;
+  float:right;
+  clear:both;
+}
+  /* Put work inline so the image would show below the Work heading. */
 #work {
     display: inline;
 }
-/* Resized image of example work */
 
-#work img {
-    width: 50%;
-    height: 20%;
-}
   /* add border and padding to Work */
 
 #work h3 {
@@ -112,47 +113,119 @@
     padding-right: 15px;
 }
 
-#work {
-  {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
+/* Adding first project image */ 
+
+.firstproject {
+  margin:3%;
+  position: relative;
 }
 
-.left a:hover {
-  background-color: #ddd;
-  color: black;
+.firstproject img {
+  width: 50%;
+  height: 20%;
 }
 
-/* Adding text to accessibility work example */ 
+/* Adding text to first work example */ 
 .left {
-  position: absolute;
-  top: 80%;
-  left: 10%;
-  transform: translate(-50%, -50%);
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 35px;
+  position:absolute;
+  top: 325px;
+  left: 0px;
   background-color: navy;
   color: white;
-  padding: 10px;
-  margin-right: 35px;
-}
-
-/* Adding second line of text under first one in Work */
-
-.left2 {
-  position: absolute;
-  top: 84%;
-  left: 13%;
-  transform: translate(-50%, -50%);
   font-size: 15px;
   font-weight: bold;
   line-height: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Adding bottom text to first work example */ 
+
+.left2 {
+  position:absolute;
+  top: 350px;
+  left: 0px;
   background-color: navy;
   color: white;
-  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Adding second project image */
+
+.secondproject {
+  margin:3%;
+  position: relative;
+}
+
+.secondproject img {
+  width: 30%;
+  height: 10%;
+}
+/* Adding text to second work example */ 
+
+.left3 {
+  position:absolute;
+  top: 95px;
+  left: 0px;
+  background-color: navy;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Adding bottom text to second work example */ 
+
+.left4 {
+  position:absolute;
+  top: 119px;
+  left: 0px;
+  background-color: navy;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Adding text onto 3rd project */ 
+
+.thirdproject {
+  margin: 3%;
+  position: relative;
+}
+
+.thirdproject img {
+  width: 30%;
+  height: 10%;
+}
+.first-txt {
+  position:absolute;
+  top: 150px;
+  left: 0px;
+  background-color: navy;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.second-txt {
+  position:absolute;
+  top: 175px;
+  left: 0px;
+  background-color: navy;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
   /* Added border and padding to Contact info */
 
