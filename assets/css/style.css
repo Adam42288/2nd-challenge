@@ -32,7 +32,7 @@
   }
   
   /* Style the active/current link*/
-  .header a.active {
+  .header a:active {
     background-color: dodgerblue;
     color: white;
   }
@@ -120,7 +120,7 @@
 }
 
 .firstproject img {
-  width: 50%;
+  width: 60%;
   height: 20%;
 }
 
@@ -159,7 +159,7 @@
 }
 
 .secondproject img {
-  width: 30%;
+  width: 40%;
   height: 10%;
 }
 /* Adding text to second work example */ 
@@ -199,7 +199,7 @@
 }
 
 .thirdproject img {
-  width: 30%;
+  width: 40%;
   height: 10%;
 }
 .first-txt {
