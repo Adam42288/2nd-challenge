@@ -54,27 +54,27 @@
     }
   }
 
+  /* Placing subhead image in center of page and making it relative position*/
 .subhead {
     position: relative;
     text-align: center;
     color: white;
   }
 
-  /* Centered text */
+  /* Centered text on background image*/
 .centered {
-    position: absolute;
-    top: 80%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-    line-height: 25px;
+  position:absolute;
+  top: 80%;
+  left: 80%;
+  background-color: navy;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
-    /* Resized the header picture of the wooden wall */
-.subhead img {
-    width: 200px;
-    height: 300px;
-}
+
 
   /* Set display type to flex to make the content appear side by side with a border in between */
 
@@ -100,6 +100,8 @@
   float:right;
   clear:both;
 }
+
+
   /* Put work inline so the image would show below the Work heading. */
 #work {
     display: inline;
