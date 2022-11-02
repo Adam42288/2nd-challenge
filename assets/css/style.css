@@ -103,13 +103,13 @@
 
 
   /* Put work inline so the image would show below the Work heading. */
-#work {
-    display: inline;
+.work {
+    display: block;
 }
 
   /* add border and padding to Work */
 
-#work h3 {
+.work h3 {
     border-right: solid 5px black;
     padding-right: 15px;
 }
