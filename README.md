@@ -1,4 +1,4 @@
-# 2nd-challenge
+# Create a Portfolio Challenge
 
 ## This challenge involves using advanced CSS to style our HTML with the user story and criteria below:
 
